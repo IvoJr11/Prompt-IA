@@ -5,6 +5,7 @@ Para este pequeño proyecto, se detalla la siguiente información:
   2. Para clonar el repositorio, deben usar la opción de clonar de Github (git clone + url), y seguido ejecutar el siguiente comando para instalar las dependencias necesarias y correrlo:
 
   npm install
+  
   npm run start:dev
 
   3. Cuando la API está en ejecución (por defecto en http://localhost:3000), puedes utilizar las siguientes rutas para interactuar con la entidad Tarea:
