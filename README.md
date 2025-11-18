@@ -4,9 +4,8 @@ Para este pequeño proyecto, se detalla la siguiente información:
 
   2. Para clonar el repositorio, deben usar la opción de clonar de Github (git clone + url), y seguido ejecutar el siguiente comando para instalar las dependencias necesarias y correrlo:
 
-  npm install
-  
-  npm run start:dev
+  npm install ;
+  npm run start
 
   3. Cuando la API está en ejecución (por defecto en http://localhost:3000), puedes utilizar las siguientes rutas para interactuar con la entidad Tarea:
 
@@ -63,9 +62,9 @@ Para este pequeño proyecto, se detalla la siguiente información:
         "Actúa como Backend Senior. Teniendo en cuenta las sugerencias anteriores, refactorizá el código del taskController para que cumpla con las validaciones de "title" y "description", manejar correctamente el error del parseInt (que arroje el error necesario para indicar que el tipo del parámetro es incorrecto), y convertir el parámetro de "completed" a booleano en el caso de que se pase como string. Mantene la estructura del archivo, con sus comentarios y métodos cumpliendo las buenas prácticas de express.js"
         Esta es más completa y tiene que ver con refactorización. Se le pide a la IA que basándose en sus sugerencias sobre los posibles errores, modifique el archivo (taskController pasado por la ventana del chat) para solucionar los problemas relacionados con la validación de campos, tipos incorrectos en los parámetros, etc. Se especifica bien el rol, la tarea está detallada y el formato de salida declara que deben seguirse buenas prácticas a la vez que mantener la estructura original del código.
 
-    5.b. La mayor utilidad que le encontré a la IA en este caso es para generar las estructuras básicas tanto de los directorios como de los archivos esenciales para la API. A veces estas cosas suelen ser tediosas porque son repetitivas, y que puedas ahorrarte ese tiempo mediante una prompt es fantástico. También me sorprendió la rapidez a la hora de refactorizar el código para corregir errores e implementar validaciones.
-
-    5.c. En mi caso no sufrí de ninguna alucinación por parte de Github Copilot, funcionó todo correctamente y fue bastante rápido el proceso.
+  5.b. La mayor utilidad que le encontré a la IA en este caso es para generar las estructuras básicas tanto de los directorios como de los archivos esenciales para la API. A veces estas cosas suelen ser tediosas porque son repetitivas, y que puedas ahorrarte ese tiempo mediante una prompt es fantástico. También me sorprendió la rapidez a la hora de refactorizar el código para corregir errores e implementar validaciones.
+    
+  5.c. En mi caso no sufrí de ninguna alucinación por parte de Github Copilot, funcionó todo correctamente y fue bastante rápido el proceso.
 
   6. Conclusiones personales:
     Me encantó lo dinámico y eficiente que es trabajar con una IA. Lo que más destaca es la facilidad que te brinda para centrarte en las cosas principales del código (o más complejas) sin tener que preocuparte de cosas más mecánicas como creación de carpetas, declaración de scripts, comentarios a cada parte del código, etc. Aprendí bastante, y más que nada a ser declarativo en las instrucciones que uno da a un tercero, creo que se puede extrapolar al trato que se tiene con compañeros de trabajo para no dejar dudas sobre lo que hay que hacer y el cómo comunicarse eficientemente con los demás.
